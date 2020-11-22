@@ -1,0 +1,263 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+html{
+    font-family: 'Montserrat', 'arial', 'verdana';
+}
+.vh-100{
+    height: 100vh;
+}
+
+.h40v{
+    height: 40vh;
+}
+
+.nowrap{
+    flex-wrap: nowrap !important;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.w30{
+    width: 30%;
+}
+
+.w40{
+    width: 40%;
+}
+
+.w60{
+    width: 60%;
+}
+
+.w70{
+    width: 70%;
+}
+
+.w100{
+    width: 100%;
+}
+
+.mb10v{
+    margin-bottom: 10vh;
+}
+
+.mb5v{
+    margin-bottom: 5vh;
+}
+
+.mb5p{
+    margin-bottom: 5%;
+}
+
+.ml5{
+    margin-left: 5%;
+}
+
+.mr5{
+    margin-right: 5%;
+}
+
+.mlr10{
+    margin: 0 10%;
+}
+
+.flex-align-center{
+    align-items: center;
+    align-content: center;
+}
+
+.flex-justify-center{
+    justify-content: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.benefits{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10vh;
+}
+
+.hero{
+    background-color: #121212;
+    color:white;
+    font-size: 4.5em;
+    font-family: 'Goldman', cursive;
+}
+
+.circimg{
+    border-radius: 50%;
+    width: 30%;
+}
+
+.benTextLeft{
+    width: 70%;
+    margin-right: 5%;
+}
+
+.benTextRight{
+    width: 70%;
+    margin-left: 5%;
+}
+
+.quote{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+}
+
+.qStart{
+    align-self: flex-start;
+    font-size: 5em;
+    font-family: 'Goldman', cursive;
+}
+
+.qEnd{
+    align-self: flex-end;
+    font-size: 5em;
+    font-family: 'Goldman', cursive;
+}
+
+.quoteArea{
+    display: flex;
+    flex-direction: column;
+    padding: 0 5%;
+    text-align: end;
+}
+
+.quoteText{
+    text-align: center;
+}
+
+.quoteOwner{
+    text-align: end;
+}
+
+.join{
+    background-image: url(./bg.jpg);
+    color: wheat;
+    margin: 0 0;
+    margin-left: -1%;
+    margin-right: -1%;
+    height: 40vh;
+}
+
+.btnContainer > a {
+    text-decoration: none!important;
+}
+
+.btn {
+    color: #edf111;
+    border: 0.125rem solid #edf111;
+    padding: 0.625rem 1.25rem;
+    border-radius: 3.125rem;
+    -webkit-transition: margin 0.3s ease;
+    transition: margin 0.3s ease;
+  }
+
+.btn:hover {
+    color: #edf111;
+    border-color: #edf111;
+    box-shadow: 0 0 0.75rem -0.125rem #edf111;
+    text-shadow: 0 0 0.25rem rgba(12, 123, 73, 0.8);
+  }
+
+.joinText{
+    margin-bottom: 5%;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    margin: 0 -1%;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: wheat;
+  }
+  
+  a:active {
+    text-decoration: underline;
+    color: wheat;
+  }
+
+
+  @media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px) {
+    .hero{
+        font-size: 2.4em;
+    }
+
+    .benLeft{
+        flex-wrap: wrap!important;
+      }
+      
+    .benRight{
+        flex-wrap: wrap!important;
+        flex-direction: column-reverse;
+      }
+    
+    .circimg{
+        width: 100%;
+    }
+
+    .benLeft{
+        margin-bottom: 0px;
+    }
+
+    .benTextLeft{
+        width: 100%;
+    }
+    
+    .benTextRight{
+        width: 100%;
+    }
+
+    .intro{
+        margin-bottom: 0px;
+    }
+
+    .quoteText{
+        padding-bottom: 5%;
+    }
+    .qStart{
+        font-size: 3em;
+    }
+    .qEnd{
+        font-size: 3em;
+    }
+
+    .join{
+        height: 50vh;
+    }
+
+    .joinText{
+        padding-bottom: 7%;
+    }
+
+    .btnContainer{
+        padding-bottom: 10%;
+    }
+    
+    .footer{
+        font-size: 0.8em;
+    }
+}
